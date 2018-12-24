@@ -1,0 +1,439 @@
+Path: /Users/abhishekhotti/eclipse-workspace/SQLStuff/src
+
+!!! WARNING !!!
+
+PLEASE MAKE SURE YOU HAVE CREATED A DATABASE CALLED 'Books' IN YOUR MySQL
+
+!!! WARNING !!!
+
+Press ENTER to start the login process. 
+
+Please enter the username you have created in your machine and would like to use. EX: abhishekhotti
+abhishekhotti
+Please enter the password you used when you created the user: abhishekhotti in your machine. EX: SJSUDatabase
+SJSUDatabase
+Your username and password are case sensitive with any user you have created in your machine 
+and will be flagged if they do not match up exactly
+
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+These are the base tables below: (HIT ENTER)
+
+Title table with random values
+
+ISBN:      1 | Title:            xkz  | Ed#:    2 | Year: 1977 | Publ ID:    1 | Price:   75 
+ISBN:      2 | Title:       zrdhunay  | Ed#:    3 | Year: 2008 | Publ ID:    2 | Price:  143 
+ISBN:      3 | Title:           ulen  | Ed#:    3 | Year: 1967 | Publ ID:    3 | Price:   84 
+ISBN:      4 | Title:      kdtyasgay  | Ed#:    3 | Year: 1967 | Publ ID:    4 | Price:  191 
+ISBN:      5 | Title:      qnailhqve  | Ed#:    3 | Year: 1965 | Publ ID:    5 | Price:  239 
+ISBN:      6 | Title:       xyzpwlkh  | Ed#:    1 | Year: 1982 | Publ ID:    6 | Price:  154 
+ISBN:      7 | Title:         sfdsjk  | Ed#:    1 | Year: 2017 | Publ ID:    7 | Price:  110 
+ISBN:      8 | Title:           cjun  | Ed#:    2 | Year: 1992 | Publ ID:    8 | Price:  215 
+ISBN:      9 | Title:        pydrqpj  | Ed#:    1 | Year: 1993 | Publ ID:    9 | Price:  209 
+ISBN:     10 | Title:          ohwuk  | Ed#:    3 | Year: 2005 | Publ ID:   10 | Price:  128 
+ISBN:     11 | Title:         wvkcca  | Ed#:    1 | Year: 1987 | Publ ID:   11 | Price:  242 
+ISBN:     12 | Title:         qetbae  | Ed#:    2 | Year: 1952 | Publ ID:   12 | Price:  211 
+ISBN:     13 | Title:           nspr  | Ed#:    1 | Year: 1973 | Publ ID:   13 | Price:  124 
+ISBN:     14 | Title:      iuzivcpxt  | Ed#:    2 | Year: 1964 | Publ ID:   14 | Price:  106 
+ISBN:     15 | Title:      lphrgompq  | Ed#:    3 | Year: 1996 | Publ ID:   15 | Price:  167 
+ISBN:     16 | Title:     zjhohwndoe  | Ed#:    1 | Year: 2005 | Publ ID:   16 | Price:  114 
+ISBN:     17 | Title:       rjddeqpn  | Ed#:    1 | Year: 1995 | Publ ID:   17 | Price:  249 
+ISBN:     18 | Title:          ltqig  | Ed#:    2 | Year: 1983 | Publ ID:   18 | Price:  109 
+ISBN:     19 | Title:          rccia  | Ed#:    3 | Year: 1951 | Publ ID:    2 | Price:  105 
+ISBN:     20 | Title:       kjexjcjz  | Ed#:    2 | Year: 1993 | Publ ID:    8 | Price:  231 
+ISBN:     21 | Title:          oamzq  | Ed#:    3 | Year: 1959 | Publ ID:    8 | Price:  142 
+ISBN:     22 | Title:       cooymsww  | Ed#:    3 | Year: 1960 | Publ ID:    1 | Price:  173 
+ISBN:     23 | Title:          jdfon  | Ed#:    1 | Year: 1965 | Publ ID:    5 | Price:  104 
+ISBN:     24 | Title:            iqv  | Ed#:    1 | Year: 1963 | Publ ID:   11 | Price:   94 
+ISBN:     25 | Title:       kqxsxrtl  | Ed#:    2 | Year: 1979 | Publ ID:   18 | Price:  206 
+ISBN:     26 | Title:        clzuscr  | Ed#:    3 | Year: 1989 | Publ ID:    4 | Price:  201 
+ISBN:     27 | Title:     kluflkovpm  | Ed#:    1 | Year: 1981 | Publ ID:   11 | Price:   63 
+ISBN:     28 | Title:      bqhujjcfw  | Ed#:    3 | Year: 2017 | Publ ID:   11 | Price:  105 
+ISBN:     29 | Title:      xgyerajqq  | Ed#:    1 | Year: 1960 | Publ ID:   12 | Price:  196 
+ISBN:     30 | Title:            bmz  | Ed#:    3 | Year: 1976 | Publ ID:    1 | Price:   86 
+ISBN:     31 | Title:        tewjvaz  | Ed#:    1 | Year: 1963 | Publ ID:    9 | Price:  204 
+ISBN:     32 | Title:            sfc  | Ed#:    3 | Year: 2006 | Publ ID:   11 | Price:  246 
+ISBN:     33 | Title:           kfwf  | Ed#:    3 | Year: 2011 | Publ ID:   12 | Price:  150 
+ISBN:     34 | Title:        uimyekb  | Ed#:    3 | Year: 1959 | Publ ID:   17 | Price:  138 
+ISBN:     35 | Title:     ygnjueiqsv  | Ed#:    2 | Year: 1983 | Publ ID:   10 | Price:   59 
+ISBN:     36 | Title:        uipkoje  | Ed#:    2 | Year: 1993 | Publ ID:   14 | Price:  144 
+ISBN:     37 | Title:         zqzdoy  | Ed#:    3 | Year: 1986 | Publ ID:   15 | Price:   96 
+ISBN:     38 | Title:     xmxqlaiuwk  | Ed#:    3 | Year: 1987 | Publ ID:   10 | Price:  120 
+ISBN:     39 | Title:         lfhrnq  | Ed#:    1 | Year: 2007 | Publ ID:   14 | Price:   98 
+ISBN:     40 | Title:      onqiqaljq  | Ed#:    1 | Year: 1963 | Publ ID:    1 | Price:  202 
+ISBN:     41 | Title:           jixd  | Ed#:    2 | Year: 1984 | Publ ID:   12 | Price:  173 
+ISBN:     42 | Title:     kqapysdoae  | Ed#:    3 | Year: 2017 | Publ ID:    1 | Price:  186 
+ISBN:     43 | Title:       zfnryopr  | Ed#:    1 | Year: 2010 | Publ ID:   13 | Price:   76 
+
+Authors table with random values
+
+AuthorId: 1  | Last Name: urvtx           | First Name: otmghzj        
+AuthorId: 2  | Last Name: ivivyxw         | First Name: zpttv          
+AuthorId: 3  | Last Name: cjcicdhk        | First Name: noizhb         
+AuthorId: 4  | Last Name: xrbiyxrd        | First Name: ycxorctb       
+AuthorId: 5  | Last Name: zmjxiuj         | First Name: kmg            
+AuthorId: 6  | Last Name: rikra           | First Name: npvfwyjun      
+AuthorId: 7  | Last Name: wcopzcry        | First Name: mhlhlqoo       
+AuthorId: 8  | Last Name: kfxg            | First Name: lhhosu         
+AuthorId: 9  | Last Name: oolt            | First Name: wlrzzgs        
+AuthorId: 10 | Last Name: yjkeyucua       | First Name: rklhg          
+AuthorId: 11 | Last Name: jcehhoazm       | First Name: sopn           
+AuthorId: 12 | Last Name: fbwfe           | First Name: uyaqrsq        
+AuthorId: 13 | Last Name: zsk             | First Name: xohu           
+AuthorId: 14 | Last Name: btblmvh         | First Name: hzckcvlfo      
+AuthorId: 15 | Last Name: yzi             | First Name: ypxcnh         
+AuthorId: 16 | Last Name: kclkt           | First Name: oegh           
+AuthorId: 17 | Last Name: lcgaddokm       | First Name: ysfz           
+AuthorId: 18 | Last Name: ccgaikv         | First Name: ctkveqiw       
+
+AuthorsISBN table with random values
+
+AuthorId: 1  | ISBN: 1  
+AuthorId: 2  | ISBN: 2  
+AuthorId: 3  | ISBN: 3  
+AuthorId: 4  | ISBN: 4  
+AuthorId: 5  | ISBN: 5  
+AuthorId: 6  | ISBN: 6  
+AuthorId: 7  | ISBN: 7  
+AuthorId: 8  | ISBN: 8  
+AuthorId: 9  | ISBN: 9  
+AuthorId: 10 | ISBN: 10 
+AuthorId: 11 | ISBN: 11 
+AuthorId: 12 | ISBN: 12 
+AuthorId: 13 | ISBN: 13 
+AuthorId: 14 | ISBN: 14 
+AuthorId: 15 | ISBN: 15 
+AuthorId: 16 | ISBN: 16 
+AuthorId: 17 | ISBN: 17 
+AuthorId: 18 | ISBN: 18 
+AuthorId: 13 | ISBN: 19 
+AuthorId: 16 | ISBN: 20 
+AuthorId: 7  | ISBN: 21 
+AuthorId: 16 | ISBN: 22 
+AuthorId: 1  | ISBN: 23 
+AuthorId: 9  | ISBN: 24 
+AuthorId: 6  | ISBN: 25 
+AuthorId: 12 | ISBN: 26 
+AuthorId: 7  | ISBN: 27 
+AuthorId: 17 | ISBN: 28 
+AuthorId: 17 | ISBN: 29 
+AuthorId: 11 | ISBN: 30 
+AuthorId: 8  | ISBN: 31 
+AuthorId: 10 | ISBN: 32 
+AuthorId: 9  | ISBN: 33 
+AuthorId: 14 | ISBN: 34 
+AuthorId: 18 | ISBN: 35 
+AuthorId: 13 | ISBN: 36 
+AuthorId: 18 | ISBN: 37 
+AuthorId: 18 | ISBN: 38 
+AuthorId: 6  | ISBN: 39 
+AuthorId: 9  | ISBN: 40 
+AuthorId: 10 | ISBN: 41 
+AuthorId: 7  | ISBN: 42 
+AuthorId: 4  | ISBN: 43 
+
+Publishers table with random values
+
+publisherID: 1  | PublisherName: mex    
+publisherID: 2  | PublisherName: sqjj   
+publisherID: 3  | PublisherName: mnrpvjak
+publisherID: 4  | PublisherName: judvunkuaz
+publisherID: 5  | PublisherName: gsujklyg
+publisherID: 6  | PublisherName: zxkexademw
+publisherID: 7  | PublisherName: nnycgweng
+publisherID: 8  | PublisherName: bzzfxxppo
+publisherID: 9  | PublisherName: jefw   
+publisherID: 10 | PublisherName: fculbn 
+publisherID: 11 | PublisherName: sequbomyff
+publisherID: 12 | PublisherName: amvgdqy
+publisherID: 13 | PublisherName: cvr    
+publisherID: 14 | PublisherName: jzhhkcqul
+publisherID: 15 | PublisherName: cisqjvo
+publisherID: 16 | PublisherName: fqjwniecu
+publisherID: 17 | PublisherName: ysvtdixgvu
+publisherID: 18 | PublisherName: ltyh   
+
+Would you like to start? Press hit ENTER to continue 
+(Will need to hit ENTER at all pauses)
+
+Non-ordered authors table with random values
+
+AuthorId: 1  | Last Name: urvtx           | First Name: otmghzj        
+AuthorId: 2  | Last Name: ivivyxw         | First Name: zpttv          
+AuthorId: 3  | Last Name: cjcicdhk        | First Name: noizhb         
+AuthorId: 4  | Last Name: xrbiyxrd        | First Name: ycxorctb       
+AuthorId: 5  | Last Name: zmjxiuj         | First Name: kmg            
+AuthorId: 6  | Last Name: rikra           | First Name: npvfwyjun      
+AuthorId: 7  | Last Name: wcopzcry        | First Name: mhlhlqoo       
+AuthorId: 8  | Last Name: kfxg            | First Name: lhhosu         
+AuthorId: 9  | Last Name: oolt            | First Name: wlrzzgs        
+AuthorId: 10 | Last Name: yjkeyucua       | First Name: rklhg          
+AuthorId: 11 | Last Name: jcehhoazm       | First Name: sopn           
+AuthorId: 12 | Last Name: fbwfe           | First Name: uyaqrsq        
+AuthorId: 13 | Last Name: zsk             | First Name: xohu           
+AuthorId: 14 | Last Name: btblmvh         | First Name: hzckcvlfo      
+AuthorId: 15 | Last Name: yzi             | First Name: ypxcnh         
+AuthorId: 16 | Last Name: kclkt           | First Name: oegh           
+AuthorId: 17 | Last Name: lcgaddokm       | First Name: ysfz           
+AuthorId: 18 | Last Name: ccgaikv         | First Name: ctkveqiw       
+
+Would you like to see the ordered table based on authors last name (Hit ENTER)
+
+Table ordered with random values based on authors last name
+
+AuthorId: 14 | Last Name: btblmvh         | First Name: hzckcvlfo      
+AuthorId: 18 | Last Name: ccgaikv         | First Name: ctkveqiw       
+AuthorId: 3  | Last Name: cjcicdhk        | First Name: noizhb         
+AuthorId: 12 | Last Name: fbwfe           | First Name: uyaqrsq        
+AuthorId: 2  | Last Name: ivivyxw         | First Name: zpttv          
+AuthorId: 11 | Last Name: jcehhoazm       | First Name: sopn           
+AuthorId: 16 | Last Name: kclkt           | First Name: oegh           
+AuthorId: 8  | Last Name: kfxg            | First Name: lhhosu         
+AuthorId: 17 | Last Name: lcgaddokm       | First Name: ysfz           
+AuthorId: 9  | Last Name: oolt            | First Name: wlrzzgs        
+AuthorId: 6  | Last Name: rikra           | First Name: npvfwyjun      
+AuthorId: 1  | Last Name: urvtx           | First Name: otmghzj        
+AuthorId: 7  | Last Name: wcopzcry        | First Name: mhlhlqoo       
+AuthorId: 4  | Last Name: xrbiyxrd        | First Name: ycxorctb       
+AuthorId: 10 | Last Name: yjkeyucua       | First Name: rklhg          
+AuthorId: 15 | Last Name: yzi             | First Name: ypxcnh         
+AuthorId: 5  | Last Name: zmjxiuj         | First Name: kmg            
+AuthorId: 13 | Last Name: zsk             | First Name: xohu           
+======================================================================
+
+Hit ENTER to see all the publishers listed below
+
+Publisher ID:   1 Publisher Name:        mex
+Publisher ID:   2 Publisher Name:       sqjj
+Publisher ID:   3 Publisher Name:   mnrpvjak
+Publisher ID:   4 Publisher Name: judvunkuaz
+Publisher ID:   5 Publisher Name:   gsujklyg
+Publisher ID:   6 Publisher Name: zxkexademw
+Publisher ID:   7 Publisher Name:  nnycgweng
+Publisher ID:   8 Publisher Name:  bzzfxxppo
+Publisher ID:   9 Publisher Name:       jefw
+Publisher ID:  10 Publisher Name:     fculbn
+Publisher ID:  11 Publisher Name: sequbomyff
+Publisher ID:  12 Publisher Name:    amvgdqy
+Publisher ID:  13 Publisher Name:        cvr
+Publisher ID:  14 Publisher Name:  jzhhkcqul
+Publisher ID:  15 Publisher Name:    cisqjvo
+Publisher ID:  16 Publisher Name:  fqjwniecu
+Publisher ID:  17 Publisher Name: ysvtdixgvu
+Publisher ID:  18 Publisher Name:       ltyh
+======================================================================
+Using publisher number 13, listing all the books from that publisher (Hit ENTER)
+
+Title:           nspr  | ISBN:     13 | Year: 1973
+Title:       zfnryopr  | ISBN:     43 | Year: 2010
+======================================================================
+Would you like to see how a new author is added to the list
+Below is the base authors table (Hit ENTER)
+
+
+First Name:    otmghzj | Last Name:      urvtx
+First Name:      zpttv | Last Name:    ivivyxw
+First Name:     noizhb | Last Name:   cjcicdhk
+First Name:   ycxorctb | Last Name:   xrbiyxrd
+First Name:        kmg | Last Name:    zmjxiuj
+First Name:  npvfwyjun | Last Name:      rikra
+First Name:   mhlhlqoo | Last Name:   wcopzcry
+First Name:     lhhosu | Last Name:       kfxg
+First Name:    wlrzzgs | Last Name:       oolt
+First Name:      rklhg | Last Name:  yjkeyucua
+First Name:       sopn | Last Name:  jcehhoazm
+First Name:    uyaqrsq | Last Name:      fbwfe
+First Name:       xohu | Last Name:        zsk
+First Name:  hzckcvlfo | Last Name:    btblmvh
+First Name:     ypxcnh | Last Name:        yzi
+First Name:       oegh | Last Name:      kclkt
+First Name:       ysfz | Last Name:  lcgaddokm
+First Name:   ctkveqiw | Last Name:    ccgaikv
+
+Going to add new author to the table now. (Hit ENTER)
+
+First Name:    otmghzj | Last Name:      urvtx
+First Name:      zpttv | Last Name:    ivivyxw
+First Name:     noizhb | Last Name:   cjcicdhk
+First Name:   ycxorctb | Last Name:   xrbiyxrd
+First Name:        kmg | Last Name:    zmjxiuj
+First Name:  npvfwyjun | Last Name:      rikra
+First Name:   mhlhlqoo | Last Name:   wcopzcry
+First Name:     lhhosu | Last Name:       kfxg
+First Name:    wlrzzgs | Last Name:       oolt
+First Name:      rklhg | Last Name:  yjkeyucua
+First Name:       sopn | Last Name:  jcehhoazm
+First Name:    uyaqrsq | Last Name:      fbwfe
+First Name:       xohu | Last Name:        zsk
+First Name:  hzckcvlfo | Last Name:    btblmvh
+First Name:     ypxcnh | Last Name:        yzi
+First Name:       oegh | Last Name:      kclkt
+First Name:       ysfz | Last Name:  lcgaddokm
+First Name:   ctkveqiw | Last Name:    ccgaikv
+First Name:   Abhishek | Last Name:      Hotti
+
+!TADA! Added a new author to the table
+======================================================================
+Would you like to see how to updating an author tuple looks like (Hit ENTER)
+
+We will be updating the authors first name for authorID5
+
+Author ID:   5 | First Name:        kmg | Last Name:    zmjxiuj
+
+HIT ENTER to change the first name with the authorID5
+
+Author ID:   5 | First Name:    Praneet | Last Name:      Singh
+
+!TADA! The author at authorID5 has been updated now (Hit ENTER)
+======================================================================
+
+Now we will show you how you can add a new title to an authors list of books
+This is the base table for the titles table: (Hit ENTER)
+
+ISBN:  1 | Title:            xkz  | Edition: 2 | Year: 1977 | PublisherID:  1 | Price:   75
+ISBN:  2 | Title:       zrdhunay  | Edition: 3 | Year: 2008 | PublisherID:  2 | Price:  143
+ISBN:  3 | Title:           ulen  | Edition: 3 | Year: 1967 | PublisherID:  3 | Price:   84
+ISBN:  4 | Title:      kdtyasgay  | Edition: 3 | Year: 1967 | PublisherID:  4 | Price:  191
+ISBN:  5 | Title:      qnailhqve  | Edition: 3 | Year: 1965 | PublisherID:  5 | Price:  239
+ISBN:  6 | Title:       xyzpwlkh  | Edition: 1 | Year: 1982 | PublisherID:  6 | Price:  154
+ISBN:  7 | Title:         sfdsjk  | Edition: 1 | Year: 2017 | PublisherID:  7 | Price:  110
+ISBN:  8 | Title:           cjun  | Edition: 2 | Year: 1992 | PublisherID:  8 | Price:  215
+ISBN:  9 | Title:        pydrqpj  | Edition: 1 | Year: 1993 | PublisherID:  9 | Price:  209
+ISBN: 10 | Title:          ohwuk  | Edition: 3 | Year: 2005 | PublisherID: 10 | Price:  128
+ISBN: 11 | Title:         wvkcca  | Edition: 1 | Year: 1987 | PublisherID: 11 | Price:  242
+ISBN: 12 | Title:         qetbae  | Edition: 2 | Year: 1952 | PublisherID: 12 | Price:  211
+ISBN: 13 | Title:           nspr  | Edition: 1 | Year: 1973 | PublisherID: 13 | Price:  124
+ISBN: 14 | Title:      iuzivcpxt  | Edition: 2 | Year: 1964 | PublisherID: 14 | Price:  106
+ISBN: 15 | Title:      lphrgompq  | Edition: 3 | Year: 1996 | PublisherID: 15 | Price:  167
+ISBN: 16 | Title:     zjhohwndoe  | Edition: 1 | Year: 2005 | PublisherID: 16 | Price:  114
+ISBN: 17 | Title:       rjddeqpn  | Edition: 1 | Year: 1995 | PublisherID: 17 | Price:  249
+ISBN: 18 | Title:          ltqig  | Edition: 2 | Year: 1983 | PublisherID: 18 | Price:  109
+ISBN: 19 | Title:          rccia  | Edition: 3 | Year: 1951 | PublisherID:  2 | Price:  105
+ISBN: 20 | Title:       kjexjcjz  | Edition: 2 | Year: 1993 | PublisherID:  8 | Price:  231
+ISBN: 21 | Title:          oamzq  | Edition: 3 | Year: 1959 | PublisherID:  8 | Price:  142
+ISBN: 22 | Title:       cooymsww  | Edition: 3 | Year: 1960 | PublisherID:  1 | Price:  173
+ISBN: 23 | Title:          jdfon  | Edition: 1 | Year: 1965 | PublisherID:  5 | Price:  104
+ISBN: 24 | Title:            iqv  | Edition: 1 | Year: 1963 | PublisherID: 11 | Price:   94
+ISBN: 25 | Title:       kqxsxrtl  | Edition: 2 | Year: 1979 | PublisherID: 18 | Price:  206
+ISBN: 26 | Title:        clzuscr  | Edition: 3 | Year: 1989 | PublisherID:  4 | Price:  201
+ISBN: 27 | Title:     kluflkovpm  | Edition: 1 | Year: 1981 | PublisherID: 11 | Price:   63
+ISBN: 28 | Title:      bqhujjcfw  | Edition: 3 | Year: 2017 | PublisherID: 11 | Price:  105
+ISBN: 29 | Title:      xgyerajqq  | Edition: 1 | Year: 1960 | PublisherID: 12 | Price:  196
+ISBN: 30 | Title:            bmz  | Edition: 3 | Year: 1976 | PublisherID:  1 | Price:   86
+ISBN: 31 | Title:        tewjvaz  | Edition: 1 | Year: 1963 | PublisherID:  9 | Price:  204
+ISBN: 32 | Title:            sfc  | Edition: 3 | Year: 2006 | PublisherID: 11 | Price:  246
+ISBN: 33 | Title:           kfwf  | Edition: 3 | Year: 2011 | PublisherID: 12 | Price:  150
+ISBN: 34 | Title:        uimyekb  | Edition: 3 | Year: 1959 | PublisherID: 17 | Price:  138
+ISBN: 35 | Title:     ygnjueiqsv  | Edition: 2 | Year: 1983 | PublisherID: 10 | Price:   59
+ISBN: 36 | Title:        uipkoje  | Edition: 2 | Year: 1993 | PublisherID: 14 | Price:  144
+ISBN: 37 | Title:         zqzdoy  | Edition: 3 | Year: 1986 | PublisherID: 15 | Price:   96
+ISBN: 38 | Title:     xmxqlaiuwk  | Edition: 3 | Year: 1987 | PublisherID: 10 | Price:  120
+ISBN: 39 | Title:         lfhrnq  | Edition: 1 | Year: 2007 | PublisherID: 14 | Price:   98
+ISBN: 40 | Title:      onqiqaljq  | Edition: 1 | Year: 1963 | PublisherID:  1 | Price:  202
+ISBN: 41 | Title:           jixd  | Edition: 2 | Year: 1984 | PublisherID: 12 | Price:  173
+ISBN: 42 | Title:     kqapysdoae  | Edition: 3 | Year: 2017 | PublisherID:  1 | Price:  186
+ISBN: 43 | Title:       zfnryopr  | Edition: 1 | Year: 2010 | PublisherID: 13 | Price:   76
+
+Now we will add a tuple to the table. Hit enter to add the title 'DBMS Textbook' to the table: (Hit ENTER)
+
+ISBN:  1 | Title:            xkz  | Edition: 2 | Year: 1977 | PublisherID:  1 | Price:   75
+ISBN:  2 | Title:       zrdhunay  | Edition: 3 | Year: 2008 | PublisherID:  2 | Price:  143
+ISBN:  3 | Title:           ulen  | Edition: 3 | Year: 1967 | PublisherID:  3 | Price:   84
+ISBN:  4 | Title:      kdtyasgay  | Edition: 3 | Year: 1967 | PublisherID:  4 | Price:  191
+ISBN:  5 | Title:      qnailhqve  | Edition: 3 | Year: 1965 | PublisherID:  5 | Price:  239
+ISBN:  6 | Title:       xyzpwlkh  | Edition: 1 | Year: 1982 | PublisherID:  6 | Price:  154
+ISBN:  7 | Title:         sfdsjk  | Edition: 1 | Year: 2017 | PublisherID:  7 | Price:  110
+ISBN:  8 | Title:           cjun  | Edition: 2 | Year: 1992 | PublisherID:  8 | Price:  215
+ISBN:  9 | Title:        pydrqpj  | Edition: 1 | Year: 1993 | PublisherID:  9 | Price:  209
+ISBN: 10 | Title:          ohwuk  | Edition: 3 | Year: 2005 | PublisherID: 10 | Price:  128
+ISBN: 11 | Title:         wvkcca  | Edition: 1 | Year: 1987 | PublisherID: 11 | Price:  242
+ISBN: 12 | Title:         qetbae  | Edition: 2 | Year: 1952 | PublisherID: 12 | Price:  211
+ISBN: 13 | Title:           nspr  | Edition: 1 | Year: 1973 | PublisherID: 13 | Price:  124
+ISBN: 14 | Title:      iuzivcpxt  | Edition: 2 | Year: 1964 | PublisherID: 14 | Price:  106
+ISBN: 15 | Title:      lphrgompq  | Edition: 3 | Year: 1996 | PublisherID: 15 | Price:  167
+ISBN: 16 | Title:     zjhohwndoe  | Edition: 1 | Year: 2005 | PublisherID: 16 | Price:  114
+ISBN: 17 | Title:       rjddeqpn  | Edition: 1 | Year: 1995 | PublisherID: 17 | Price:  249
+ISBN: 18 | Title:          ltqig  | Edition: 2 | Year: 1983 | PublisherID: 18 | Price:  109
+ISBN: 19 | Title:          rccia  | Edition: 3 | Year: 1951 | PublisherID:  2 | Price:  105
+ISBN: 20 | Title:       kjexjcjz  | Edition: 2 | Year: 1993 | PublisherID:  8 | Price:  231
+ISBN: 21 | Title:          oamzq  | Edition: 3 | Year: 1959 | PublisherID:  8 | Price:  142
+ISBN: 22 | Title:       cooymsww  | Edition: 3 | Year: 1960 | PublisherID:  1 | Price:  173
+ISBN: 23 | Title:          jdfon  | Edition: 1 | Year: 1965 | PublisherID:  5 | Price:  104
+ISBN: 24 | Title:            iqv  | Edition: 1 | Year: 1963 | PublisherID: 11 | Price:   94
+ISBN: 25 | Title:       kqxsxrtl  | Edition: 2 | Year: 1979 | PublisherID: 18 | Price:  206
+ISBN: 26 | Title:        clzuscr  | Edition: 3 | Year: 1989 | PublisherID:  4 | Price:  201
+ISBN: 27 | Title:     kluflkovpm  | Edition: 1 | Year: 1981 | PublisherID: 11 | Price:   63
+ISBN: 28 | Title:      bqhujjcfw  | Edition: 3 | Year: 2017 | PublisherID: 11 | Price:  105
+ISBN: 29 | Title:      xgyerajqq  | Edition: 1 | Year: 1960 | PublisherID: 12 | Price:  196
+ISBN: 30 | Title:            bmz  | Edition: 3 | Year: 1976 | PublisherID:  1 | Price:   86
+ISBN: 31 | Title:        tewjvaz  | Edition: 1 | Year: 1963 | PublisherID:  9 | Price:  204
+ISBN: 32 | Title:            sfc  | Edition: 3 | Year: 2006 | PublisherID: 11 | Price:  246
+ISBN: 33 | Title:           kfwf  | Edition: 3 | Year: 2011 | PublisherID: 12 | Price:  150
+ISBN: 34 | Title:        uimyekb  | Edition: 3 | Year: 1959 | PublisherID: 17 | Price:  138
+ISBN: 35 | Title:     ygnjueiqsv  | Edition: 2 | Year: 1983 | PublisherID: 10 | Price:   59
+ISBN: 36 | Title:        uipkoje  | Edition: 2 | Year: 1993 | PublisherID: 14 | Price:  144
+ISBN: 37 | Title:         zqzdoy  | Edition: 3 | Year: 1986 | PublisherID: 15 | Price:   96
+ISBN: 38 | Title:     xmxqlaiuwk  | Edition: 3 | Year: 1987 | PublisherID: 10 | Price:  120
+ISBN: 39 | Title:         lfhrnq  | Edition: 1 | Year: 2007 | PublisherID: 14 | Price:   98
+ISBN: 40 | Title:      onqiqaljq  | Edition: 1 | Year: 1963 | PublisherID:  1 | Price:  202
+ISBN: 41 | Title:           jixd  | Edition: 2 | Year: 1984 | PublisherID: 12 | Price:  173
+ISBN: 42 | Title:     kqapysdoae  | Edition: 3 | Year: 2017 | PublisherID:  1 | Price:  186
+ISBN: 43 | Title:       zfnryopr  | Edition: 1 | Year: 2010 | PublisherID: 13 | Price:   76
+ISBN: 50 | Title:   DBMS Textbook | Edition: 3 | Year: 2000 | PublisherID:  1 | Price:  190
+======================================================================
+We will be adding a publisher to the publisher table
+This is the base publisher table (Hit ENTER)
+
+ID:  1 | NAME:        mex
+ID:  2 | NAME:       sqjj
+ID:  3 | NAME:   mnrpvjak
+ID:  4 | NAME: judvunkuaz
+ID:  5 | NAME:   gsujklyg
+ID:  6 | NAME: zxkexademw
+ID:  7 | NAME:  nnycgweng
+ID:  8 | NAME:  bzzfxxppo
+ID:  9 | NAME:       jefw
+ID: 10 | NAME:     fculbn
+ID: 11 | NAME: sequbomyff
+ID: 12 | NAME:    amvgdqy
+ID: 13 | NAME:        cvr
+ID: 14 | NAME:  jzhhkcqul
+ID: 15 | NAME:    cisqjvo
+ID: 16 | NAME:  fqjwniecu
+ID: 17 | NAME: ysvtdixgvu
+ID: 18 | NAME:       ltyh
+
+This is the publisher table after execution of adding the new publisher with publisherId = 40 (Hit ENTER)
+
+ID:  1 | NAME:        mex
+ID:  2 | NAME:       sqjj
+ID:  3 | NAME:   mnrpvjak
+ID:  4 | NAME: judvunkuaz
+ID:  5 | NAME:   gsujklyg
+ID:  6 | NAME: zxkexademw
+ID:  7 | NAME:  nnycgweng
+ID:  8 | NAME:  bzzfxxppo
+ID:  9 | NAME:       jefw
+ID: 10 | NAME:     fculbn
+ID: 11 | NAME: sequbomyff
+ID: 12 | NAME:    amvgdqy
+ID: 13 | NAME:        cvr
+ID: 14 | NAME:  jzhhkcqul
+ID: 15 | NAME:    cisqjvo
+ID: 16 | NAME:  fqjwniecu
+ID: 17 | NAME: ysvtdixgvu
+ID: 18 | NAME:       ltyh
+ID: 40 | NAME:   Manpreet
+
+!TADA! Added a new publisher to the publisher table (Hit ENTER)
+======================================================================
+Now we will be updating a publisher name (Hit ENTER)
+
+This is the base publishers tuple for publisher ID:2
+ID:  2 | NAME:        sqjj
+
+To see the publisher after the publisher with ID # 2 has been updated (Hit ENTER)
+
+ID:  2 | NAME:      Sukvhir
+
+All done. Run me again if want to double check.
+
